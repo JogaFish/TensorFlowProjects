@@ -45,6 +45,7 @@ plt.xlabel('Prediction Error [MPG]')
 _ = plt.ylabel('Count')
 plt.show()
 print(error.mean())
+print(error.median())
 
 
 
